@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+* {
+
+margin: 0px;
+padding: 0px;
+}
+
+header {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+
+
+
+
+}
+
+header > h1 {
+
+padding-top: 50px;
+font-variant: small-caps;
+font-family: 'Pacifico';
+font-size: 3em;
+
+
+}
+header > p {
+
+    padding-bottom: 50px;
+
+
+
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+a:hover{
+
+    text-decoration: underline;
+
+
+}
+
+section {
+
+    padding-top: 10vh;
+    padding-bottom:  10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: 'Poetsen one';
+    font-size: 1.5em;
+}
+
+section#img1{
+
+    background-image: url('../estilo/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+section#img2{
+
+    background-image: url('../estilo/imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.normal{
+
+    background-color: white;
+    color: black;
+
+
+
+
+}
+.imagem {
+
+    
+    color: white;
+    text-shadow: 2px 1px 1px black;
+
+
+
+
+}
+.imagem > p {
+
+
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.24);
+
+
+}
+
+
+
+
+
+
+footer{
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
